@@ -10,35 +10,35 @@ describe("Manager suite", () => {
 
     describe("getName", () => {
         it("should return name", () => {
-            const manag = new Manager("saad", 1, "saad@fake.com", 1);
-            expect(manag.getName()).toEqual("saad");
+            const manag = new Manager("mud", 1, "mud@fake.com", 1);
+            expect(manag.getName()).toEqual("mud");
         });
     });
 
     describe("getid", () => {
         it("should return id", () => {
-            const manag = new Manager("saad", 1, "saad@fake.com", 1);
+            const manag = new Manager("mud", 1, "mud@fake.com", 1);
             expect(manag.getId()).toEqual(1);
         });
     });
 
     describe("getEmail", () => {
         it("should return email", () => {
-            const manag = new Manager("saad", 1, "saad@fake.com", 1);
-            expect(manag.getEmail()).toEqual("saad@fake.com");
+            const manag = new Manager("mud", 1, "mud@fake.com", 1);
+            expect(manag.getEmail()).toEqual("mud@fake.com");
         });
     });
 
     describe("getOfficeNumber", () => {
         it("should return office number", () => {
-            const manag = new Manager("saad", 1, "saad@fake.com", 1);
+            const manag = new Manager("mud", 1, "mud@fake.com", 1);
             expect(manag.getOfficeNumber()).toEqual(1);
         });
     });
 
     describe("getRole", () => {
         it("should return role", () => {
-            const manager = new Manager("saad", 1, "saad@fake.com", 1);
+            const manager = new Manager("mud", 1, "mud@fake.com", 1);
             expect(manager.getRole()).toEqual("Manager");
         });
     });

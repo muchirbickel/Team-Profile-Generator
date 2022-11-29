@@ -10,28 +10,28 @@ describe("Employee suite", () => {
 
     describe("getName", () => {
         it("should return name", () => {
-            const employee = new Employee("saad", 1, "saad@fake.com");
-            expect(employee.getName()).toEqual("saad");
+            const employee = new Employee("mud", 1, "mud@fake.com");
+            expect(employee.getName()).toEqual("mud");
         });
     });
 
     describe("getId", () => {
         it("shoud return id", () => {
-            const employee = new Employee("saad", 1, "saad@fake.com");
+            const employee = new Employee("mud", 1, "mud@fake.com");
             expect(employee.getId()).toEqual(1);
         });
     });
 
     describe("getEmail", () => {
         it("shoud return email", () => {
-            const employee = new Employee("saad", 1, "saad@fake.com");
-            expect(employee.getEmail()).toEqual("saad@fake.com");
+            const employee = new Employee("mud", 1, "mud@fake.com");
+            expect(employee.getEmail()).toEqual("mud@fake.com");
         });
     });
 
     describe("getRole", () => {
         it("shoud return role", () => {
-            const employee = new Employee("saad", 1, "saad@fake.com");
+            const employee = new Employee("mud", 1, "mud@fake.com");
             expect(employee.getRole()).toEqual("Employee");
         });
     });
