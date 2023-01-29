@@ -33,6 +33,7 @@ THEN I exit the application, and the HTML is generated
 ## Mock-Up
 
 The following image shows a mock-up of the generated HTML’s appearance and functionality:
+[Click here to see the demo video](https://youtu.be/9Lc0gpnvTJQ)
 
 ![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/Capture.PNG)
 
